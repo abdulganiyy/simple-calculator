@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title></title>
+ 	<style type="text/css">
+ 		.wrap{
+ 			width: 400px;
+ 			height: 500px;
+ 			background: linear-gradient(blue,purple);
+ 			padding: 20px;
+ 			margin: auto;
+ 			border-radius: 25px;
+ 		}
+
+ 		.display{
+ 			width: 360px;
+ 			height: 100px;
+ 			background-color: #f2eee7;
+ 			margin-left: 20px;
+ 			text-align: right;
+ 			padding-top:60px;
+ 			font-size: 30px;
+ 			color: blue;
+ 			box-sizing: border-box;
+ 			border-radius: 15px;
+ 			
+ 		}
+
+ 		.butwrap{
+ 			width: 360px;
+ 			margin-left: 20px;
+ 			margin-top: 30px;
+ 			display: grid;
+ 			grid-template-columns: 68px 68px 68px 68px 68px;
+ 			grid-gap: 5px;
+ 		}
+
+ 		input{
+ 			width: 68px;
+ 			height: 68px;
+ 			text-align: center;
+ 		}
+
+ 		input:hover{
+ 			background-color: green;
+ 			border:0; 
+ 		}
+
+ 		.foot{
+ 			width: 100%;
+ 			background: linear-gradient(blue,purple);
+ 			text-align: center;
+ 			height: 150px;
+ 			box-sizing: border-box;
+ 			padding: 40px;
+ 			font-size: 2.5em;
+ 			margin-top: 20px;
+ 			border-radius: 10px;
+ 		
+ 		}
+ 		
+ 	</style>
+ </head>
+ <body>
+ 	<div id="calc" class="wrap">
+ 		<div id="disp" class="display" ></div>
+ 		<div id="buttons" class="butwrap">
+ 			<input type="button" name="" value="1" id="one">
+ 			<input type="button" name="" value="2" id="two">
+ 			<input type="button" name="" value="3" id="three">
+ 			<input type="button" name="" value="4" id="four">
+ 			<input type="button" name="" value="/" id="division">
+ 			<input type="button" name="" value="5" id="five">
+ 			<input type="button" name="" value="6" id="six">
+ 			<input type="button" name="" value="7" id="seven">
+ 			<input type="button" name="" value="8" id="eight">
+ 			<input type="button" name="" value="*" id="multiplication">
+ 			<input type="button" name="" value="9" id="nine">
+ 			<input type="button" name="" value="0" id="zero">
+ 			<input type="button" name="" value="+" id="plus">
+ 			<input type="button" name="" value="-" id="minus">
+ 			<input type="button" name="" value="=" id="equalsto">
+ 		</div>
+ 		<div class="foot">Calculator</div>
+ 	</div>
+ <script src="script.js"></script>
+ </body>
+ </html>
